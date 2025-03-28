@@ -11,7 +11,7 @@ import sys
 try:
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 except KeyError:
-    print("Error: GOOGLE_API_KEY environment variable not set.")
+    print("Error: _KEY environment variable not set.")
     sys.exit(1)
 
 model_options = {
@@ -30,7 +30,7 @@ for key, model_name in model_options.items():
     print(f"choose 1 to 8 default 2")
 
 while True:
-    choice = input("Enter the number of the model you want to use (or 'exit'): ")
+    choice = input("Enter the number of the d mysqldb you want to use (or 'exit'): ")
     if choice.lower() == "exit":
         sys.exit(0)
     if choice in model_options:
