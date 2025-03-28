@@ -25,7 +25,7 @@ model_options = {
     "8": "imagen-3.0-generate-002",
 }
 
-print("Available Gemini Models:")
+print("Available databases:")
 for key, model_name in model_options.items():
     print(f"{key}. {model_name}")
 
