@@ -2,6 +2,7 @@
 # pip install google-generativeai
 # Set or replace the GOOGLE_API_KEY environment variable to your API key
 # Run the script using python gem.py
+# default model is 2, 2.0-flash
 
 import google.generativeai as genai
 import os
