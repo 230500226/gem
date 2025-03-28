@@ -1,3 +1,8 @@
+# install generativeai package using pip
+# pip install google-generativeai
+# Set or replace the GOOGLE_API_KEY environment variable to your API key
+# Run the script using python gem.py
+
 import google.generativeai as genai
 import os
 import sys
