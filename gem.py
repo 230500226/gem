@@ -27,7 +27,7 @@ model_options = {
 
 print("Available databases:")
 for key, model_name in model_options.items():
-    print(f"{key}. {model_name}")
+    print(f"choose 1 to 8 default 2")
 
 while True:
     choice = input("Enter the number of the model you want to use (or 'exit'): ")
