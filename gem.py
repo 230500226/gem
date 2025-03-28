@@ -43,12 +43,12 @@ try:
     model = genai.GenerativeModel(selected_model)
     chat = model.start_chat(history=[])
 except Exception as e:
-    print(f"Error initializing model: {e}")
+    print(f"Error initializing db: {e}")
     sys.exit(1)
 
 while True:
     try:
-        user_input = input("ihr")
+        user_input = input("mysql:")
         if user_input.lower() == 'exit':
             break
         response = chat.send_message(user_input)
