@@ -2,7 +2,7 @@
 # or pipx install google-generativeai --include-deps
 # Set or replace the GOOGLE_API_KEY environment variable to your API key
 # Run the script using python gem.py or ~/.local/share/pipx/venvs/google-generativeai/bin/python gem.py
-# export GOOGLE_API_KEY="AIzaSyD4bK6xMmv-PNWDaq7Xxer8T4mF0ovxpEg"
+# export GOOGLE_API_KEY="YOURAPIKEY"
 
 import google.generativeai as genai
 import os
