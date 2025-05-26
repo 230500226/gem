@@ -14,7 +14,7 @@ except KeyError:
     print("Error: API_KEY not set.")
     sys.exit(1)
 
-default_model = "gemini-2.0-flash"
+default_model = "gemini-2.5-flash-preview-05-20"
 
 try:
     model = genai.GenerativeModel(default_model)
