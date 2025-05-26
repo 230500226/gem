@@ -1,6 +1,7 @@
 # pip install google-generativeai
 # or pipx install google-generativeai --include-deps (arch)
-# Replace YOURAPIKEY with yeah
+# Replace YOURAPIKEY with yeah then
+# Run the script using python gem.py 
 import google.generativeai as genai
 import os
 import sys
