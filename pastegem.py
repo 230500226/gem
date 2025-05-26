@@ -1,10 +1,13 @@
+# pip install google-generativeai
+# or pipx install google-generativeai --include-deps (arch)
+# Replace YOURAPIKEY with yeah
 import google.generativeai as genai
 import os
 import sys
 
 genai.configure(api_key="YOURAPIKEY")
 
-default_model = "gemini-2.0-flash"
+default_model = "gemini-2.5-flash-preview-05-20"
 
 try:
     model = genai.GenerativeModel(default_model)
